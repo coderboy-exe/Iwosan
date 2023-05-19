@@ -86,21 +86,25 @@ export const doctors = [
     {
         name: 'Dr Ibrahim Yekini',
         role: 'Heart Surgeon',
-        appointment: 'Emergency'
+        appointment: 'Emergency',
+        booking: 22
     },
     {
         name: 'Dr Amina Ahmed',
         role: 'Health Specialist',
-        appointment: 'Consultation'
+        appointment: 'Consultation',
+        booking: 27
     },
     {
         name: 'Dr Ebuka Kelechi',
         role: 'Heart Surgeon',
-        appointment: 'Examination'
+        appointment: 'Examination',
+        booking: 32
     },
     {
         name: 'Dr Bridget Olawojeje',
         role: 'Family Doctor',
-        appointment: 'Emergency'
+        appointment: 'Emergency',
+        booking: 29
     },
 ];

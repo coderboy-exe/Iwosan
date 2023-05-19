@@ -35,7 +35,7 @@ const Appointments = () => {
         </div>
         <div className='border py-5'>
             <h2 className='flex font-bold p-2'>Previous Appointments</h2>
-            <div className='w-full border font-bold flex justify-around align-center'>
+            <div className='xs:flex-col w-full border font-bold flex justify-around align-center'>
                 <h3 className='px-10 py-2 border'>DAY</h3>
                 <h3 className='px-10 py-2 border bg-red-500 text-white'>WEEK</h3>
                 <h3 className='px-10 py-2 border'>MONTH</h3>

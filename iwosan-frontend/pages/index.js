@@ -6,6 +6,7 @@ import OverallChart from '@/components/Charts/OverallChart'
 import MiddleCards from '@/components/MiddleCards'
 import Appointments from '@/components/Appointments'
 import BottomCard from '@/components/BottomCard'
+import UserList from '@/components/UserList'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +24,8 @@ export default function Home() {
         </div>
         <div className='w-1/5'>
           <Appointments />
+          <br />
+          <UserList />
         </div>
       </div>
     </main>

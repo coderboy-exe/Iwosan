@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "646753879fe8d5de32fd49f2",
+    "username": "olamam",
+    "email": "sam@gmail.com",
+    "password": "$2b$10$janazXPT3y.DVQiPWuiOP.zc.09VeEoeMhSr0aphWUNxTzad6LiGa",
+    "createdAt": "2023-05-19T10:46:31.238Z",
+    "updatedAt": "2023-05-19T10:46:31.238Z",
+    "__v": 0
+  },
+  {
+    "_id": "64675a860ef86903d13dfa20",
+    "username": "uche",
+    "email": "updated@email.com",
+    "password": "$2b$10$L5uVwRkNdCtNRfOqKfqqHef9unUmooTOOiF34d4ZmMxdozs4Xeqqi",
+    "createdAt": "2023-05-19T11:16:22.175Z",
+    "updatedAt": "2023-05-19T13:12:24.306Z",
+    "__v": 0
+  },
+  {
+    "_id": "64676f644b027e66fec39064",
+    "username": "test_user",
+    "email": "test@email.com",
+    "password": "$2b$10$BxNuXbNZe.Y.DUIwx.e94ux3mLKHhSED1.nM/dIP28LU0Bx7.0x0e",
+    "createdAt": "2023-05-19T12:45:24.454Z",
+    "updatedAt": "2023-05-19T12:45:24.454Z",
+    "__v": 0
+  },
+  {
+    "_id": "64677452013f3be81284870c",
+    "username": "mytestuser",
+    "email": "mytest@email.com",
+    "password": "$2b$10$o5aCnI0sh49f3d2tXcGu3.N3Gy7LFB2Eo/fKk3.THyK9ZD8mASOnG",
+    "createdAt": "2023-05-19T13:06:26.637Z",
+    "updatedAt": "2023-05-19T13:06:26.637Z",
+    "__v": 0
+  },
+  {
+    "_id": "646775b458ef392adcf58a2a",
+    "username": "mytestuser",
+    "email": "mytestuser@email.com",
+    "password": "$2b$10$KokHxXu8sDMrErWLaZg3H.SvtNufq/pqrgPN6wObYp7pN.Uxey79m",
+    "createdAt": "2023-05-19T13:12:20.675Z",
+    "updatedAt": "2023-05-19T13:12:20.675Z",
+    "__v": 0
+  },
+  {
+    "_id": "64677800468e8c52acfd2661",
+    "username": "newtestuser",
+    "email": "newtestuser@email.com",
+    "password": "$2b$10$DW2IASrLBzHNXTlk2Hy/seeIqaGBXLTSSOb9iv4atdJZzZsC6Io.C",
+    "createdAt": "2023-05-19T13:22:08.618Z",
+    "updatedAt": "2023-05-19T13:22:08.618Z",
+    "__v": 0
+  },
+  {
+    "_id": "646799b1d280b94ae1121858",
+    "username": "Uchechukwu",
+    "email": "coderboy.exe@gmail.com",
+    "password": "$2b$10$MgXD6viVwzp99Cxb9KeR8.x.zykY99F7YM.DwjFbLUJGiPeORAXdW",
+    "createdAt": "2023-05-19T15:45:53.988Z",
+    "updatedAt": "2023-05-19T15:45:53.988Z",
+    "__v": 0
+  },
+  {
+    "_id": "64679a1cd280b94ae112185b",
+    "username": "uchechukwu007",
+    "email": "kapuskiii@gmail.com",
+    "password": "$2b$10$jlg.WFqZ3GunkWTjsBxq5utDI45Ulb7NcODvWQB./tt0ZSRafVh9q",
+    "createdAt": "2023-05-19T15:47:40.127Z",
+    "updatedAt": "2023-05-19T15:47:40.127Z",
+    "__v": 0
+  }
+]

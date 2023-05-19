@@ -77,6 +77,7 @@ const loginUser = asyncHandler(async (req, res) => {
         { expiresIn: '10m' }
         );
         res.status(200).json({ accessToken })
+        res.redirect(`http://localhost:3000/?token=${accessToken}:`)
 
     } else {
         res.status(401)

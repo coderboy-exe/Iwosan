@@ -3,19 +3,63 @@ import { doctors } from '@/data/data'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineMarkEmailUnread } from 'react-icons/md'
 import SearchBar from './SearchBar'
+import { BsThreeDots, BsThreeDotsVertical } from 'react-icons/bs'
 
 const BottomCard = () => {
   return (
         <div className='border py-5'>
-            <div className='flex my-0 px-10'>
-                <h2 className='flex font-bold p-2 w-2/5'>Doctors</h2>
-                <h2 className='flex font-bold p-2 w-2/5'><SearchBar /></h2>
-                <div className='w-1/5 font-bold flex justify-around'>
-                    <h3 className='px-10 py-3 border bg-red-500 text-white rounded-xl'>ALL</h3>
-                    <h3 className='px-10 py-3 border rounded-xl'>MEN</h3>
-                    <h3 className='px-10 py-3 border rounded-xl'>WOMEN</h3>
+            <div className='my-3 px-2 flex justify-between'>
+                <span className='flex font-bold p-2'>Doctors</span>
+                <span className='flex font-bold p-2'><SearchBar /></span>
+                <div className='font-bold flex justify-center'>
+                    <span className='px-10 py-3 bg-red-500 text-white rounded-xl'>ALL</span>
+                    <span className='px-10 py-3 border rounded-xl'>MEN</span>
+                    <span className='px-10 py-3 border rounded-xl'>WOMEN</span>
                 </div>
             </div>
+            <div className='p-4'>
+                <div className='w-full m-auto p-4 border rounded-lg overflow-y-auto'>
+                    <div className='my-3 px-2 grid md:grid-cols-5 items-center justify-between cursor-pointer'>
+                        <span>Name</span>
+                        <span className='grid'>Role</span>
+                        <span className='grid'>Booked Appointments</span>
+                        <span className='grid'>Chat</span>
+                        <span className='grid'>Book New Appointments</span>
+                    </div>
+
+                    <ul role="list">
+
+                    {doctors.map((doctor, index) => (
+                        <li key={index} className='border rounded-lg my-3 p-2 hover:bg-gray-100 rounded-lg grid md:grid-cols-5 items-center justify-between cursor-pointer'>
+                            <div className="flex items-center">
+                                <div className='bg-blue-100 p-3 rounded-lg'>
+                                    <CgProfile className='text-blue-300' size={25} />
+                                </div>
+                                <p className="pl-4">
+                                    {doctor.name}
+                                </p>
+                            </div>
+                            <p className="text-sm text-gray-700 dark:text-gray-500">
+                                {doctor.role}
+                            </p>
+                            <p className="text-sm text-gray-700 dark:text-gray-500">
+                                {doctor.booking}
+                            </p>
+                            <p className="text-sm text-gray-700 dark:text-gray-500">
+                                <MdOutlineMarkEmailUnread size={25} />
+                            </p>
+                            <div className="flex justify-between items center">
+                                <span className='border border-gray-400 font-bold rounded-2xl p-2 px-4'>Book</span>
+                                <BsThreeDots />
+                            </div>
+                        </li>
+                        ))
+                        }
+                    </ul>
+                    
+                </div>
+            </div>
+            
 
             {/* <div className='mt-10 flex justify-around font-bold text-sm'>
                 <h3>Name</h3>
@@ -25,7 +69,7 @@ const BottomCard = () => {
                 <h3>Book New Appointments</h3>
             </div> */}
             
-            <table class="w-full text-sm text-left text-gray-800 dark:text-gray-800">
+            {/* <table class="w-full text-sm text-left text-gray-800 dark:text-gray-800">
                 <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-white dark:text-gray-800">
                     <tr>
                         <th scope="col" class="px-6 py-3">
@@ -86,7 +130,7 @@ const BottomCard = () => {
                     ))}
                     
                 </tbody>
-            </table>
+            </table> */}
 
             {/* <ul role="list">
                 
